@@ -1,0 +1,120 @@
+﻿const generatedBibEntries = {
+    "baak2024owaCombinatorial": {
+        "author": "Werner Baak and Marc Goerigk",
+        "doi": "10.48550/arXiv.2410.09786",
+        "journal": "arXiv preprint arXiv:2410.09786",
+        "keywords": "OWA, combinatorial, interval uncertainty, ranking",
+        "series": "arXiv",
+        "title": "Ordered Weighted Averaging for Combinatorial Decision Problems with Interval Uncertainty",
+        "type": "article Extension",
+        "year": "2024"
+    },
+    "jain2022fuzzyAHP": {
+        "author": "Jain, R. and Sharma, M. and Yadav, V.",
+        "doi": "10.1002/pa.2710",
+        "journal": "Journal of Public Affairs",
+        "keywords": "investment, stock selection, fuzzy AHP, multicriteria decision-making, financial application",
+        "number": "1",
+        "pages": "e2710",
+        "series": "Journal of Public Affairs",
+        "title": "A fuzzy analytical hierarchy process framework for stock selection in the Indian stock market",
+        "type": "article article",
+        "volume": "22",
+        "year": "2022"
+    },
+    "kaliszewski2016saw": {
+        "author": "Ignacy Kaliszewski and Dmitry Podkopaev",
+        "doi": "10.1016/j.eswa.2016.01.042",
+        "journal": "Expert Systems with Applications",
+        "keywords": "SAW, MCDA, benchmark, additive weighting",
+        "pages": "155--161",
+        "series": "Expert Systems with Applications",
+        "title": "Simple additive weighting\u2014A metamodel for multiple criteria decision analysis methods",
+        "type": "article Theoretical",
+        "volume": "54",
+        "year": "2016"
+    },
+    "lin2014hwa": {
+        "author": "Jian Lin and Yong Jiang",
+        "doi": "10.1016/j.inffus.2011.06.001",
+        "journal": "Information Fusion",
+        "keywords": "hybrid weighting, HWA, aggregation, averaging",
+        "pages": "18--28",
+        "series": "Information Fusion",
+        "title": "Some hybrid weighted averaging operators and their application to decision making",
+        "type": "article Extension",
+        "volume": "16",
+        "year": "2014"
+    },
+    "murray2021xaiChoquet": {
+        "author": "Murray, N. and Roper, M. and Woodward, J. R. and Barlow, M.",
+        "doi": "10.1109/TETCI.2020.3005682",
+        "journal": "IEEE Transactions on Emerging Topics in Computational Intelligence",
+        "keywords": "explainable AI, Choquet integral, aggregation operator, fuzzy measures, model interpretation",
+        "number": "4",
+        "pages": "520--529",
+        "series": "IEEE Transactions on Emerging Topics in Computational Intelligence",
+        "title": "Explainable AI for the Choquet Integral",
+        "type": "article article",
+        "volume": "5",
+        "year": "2021"
+    },
+    "pamucar2025opaAAWE": {
+        "author": "Dragan Pamucar and Derya Deliktas",
+        "doi": "10.1007/s40815-025-02034-9",
+        "journal": "International Journal of Fuzzy Systems",
+        "keywords": "stock selection, fuzzy weighting, Aczel\u2013Alsina, OPA",
+        "series": "IJFS",
+        "title": "Decision-Analytics-Based Stock Selection: A Fuzzy Aczel\u2013Alsina Ordinal Priority Approach",
+        "type": "article Application",
+        "year": "2025"
+    },
+    "scharfstein2013lessismore": {
+        "author": "David Scharfstein and Jeremy C. Stein",
+        "doi": "10.1016/j.jebo.2013.02.002",
+        "journal": "Journal of Economic Behavior \\& Organization",
+        "keywords": "aggregation bias, investment behaviour, bounded rationality",
+        "pages": "142--158",
+        "series": "J. Economic Behavior \\& Org.",
+        "title": "Sometimes less is more: The influence of information aggregation on investment decisions",
+        "type": "article Application",
+        "volume": "89",
+        "year": "2013"
+    },
+    "wagner2023jwa": {
+        "author": "Christian Wagner and Tom R. G. Green and Cleotilde Gonzalez and Ning Wang",
+        "doi": "10.48550/arXiv.2302.11885",
+        "journal": "arXiv preprint arXiv:2302.11885",
+        "keywords": "JWA, source weighting, evidence, aggregation, explainability",
+        "series": "arXiv",
+        "title": "The Joint Weighted Average (JWA) Operator",
+        "type": "article Theoretical",
+        "year": "2023"
+    },
+    "yager1988owa": {
+        "author": "Ronald R. Yager",
+        "doi": "10.1109/21.87068",
+        "journal": "IEEE Transactions on Systems, Man, and Cybernetics",
+        "keywords": "OWA, ordered weights, aggregation, multicriteria, non-linear",
+        "number": "1",
+        "pages": "183--190",
+        "series": "IEEE TSMC",
+        "title": "On ordered weighted averaging aggregation operators in multicriteria decisionmaking",
+        "type": "article Theoretical",
+        "volume": "18",
+        "year": "1988"
+    },
+    "zeng2021intervalowa": {
+        "author": "Shouyang Zeng and others",
+        "doi": "10.1002/int.22559",
+        "journal": "International Journal of Intelligent Systems",
+        "keywords": "interval OWA, uncertainty, decision making, group aggregation",
+        "number": "12",
+        "pages": "7004--7029",
+        "series": "Int. J. Intelligent Systems",
+        "title": "Interval numbers BONr q\u2010OWA operator and its application to multiattribute group decision making",
+        "type": "article Extension",
+        "volume": "36",
+        "year": "2021"
+    }
+};
