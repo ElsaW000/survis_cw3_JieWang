@@ -1,66 +1,39 @@
-# SurVis - Visual Literature Browser
+![image](https://github.com/user-attachments/assets/5160466a-7747-4736-ab31-c36688c45c10)
+# Literature Overview for CW3 - COMP4037
 
-![Screenshot](/doc/survis.png)
+This GitHub repository hosts the interactive **SurVis** visualization for the literature review project of COMP4037 Coursework 3 at the University of Nottingham.
 
-SurVis is a flexible online browser to present and analyze scientific literature. The system is made for authors of survey articles, theses, or books who want to share their references in a user-friendly way. All you need to start is a bib file and a list of keywords for your papers.
+## 📌 Topic:  
+Aggregation Operators in Decision Support and Explainable AI
 
-Test SurVis with a reference literature database: http://dynamicgraphs.fbeck.com
+## 📄 Papers:
+10 key references from 1988 to 2025  
+Fields include: JWA, OWA, SAW, Hybrid Aggregation, Interval Operators, Explainability
 
-## How To Use SurVis for Your Literature Collection
+## 🧩 Visual Classification:
+- **type**: Theoretical, Application, Extension, Explainable AI  
+- **series**: Journal/Conference sources  
+- **keywords**: Extracted and manually defined per paper
 
-Dowload the [latest SurVis release](https://github.com/fabian-beck/survis/releases/latest) or fork this repository.
+## 🔗 Access the SurVis Page
 
-To start SurVis, open 'src/index.html' in your browser.
+👉 [Click here to open the interactive SurVis visualization](https://elsaw000.github.io/survis-cw3-JieWang/)
 
-The bibliography data is stored in 'bib/references.bib' in BibTeX format.
+> Make sure all JS/CSS files and data are correctly deployed in the same folder as `index.html`.
 
-Supplemental data is contained in 'src/data/':
-* 'tag_categories.js': list of special tag categories; they can be used as a prefix for the tags and appear, for instance, 'a:b' refers to tag 'b' in tag category 'a'
-* 'authorized_tags.js': tags that are defined through a description (highlighted in SurVis, description appears as a tooltip)
-* 'search_stopwords.js': a list of stopwords used to exclude terms from search queries
-* 'papers_pdf' (optional): PDF files of the papers, please use the BibTeX id as a file name
-* 'papers_img' (optional): PNG thumbnails for the papers, please use the BibTeX id as a file name
+## 📁 File Structure
 
-Please do not edit the files in 'src/data/generated/' because they are created automatically. 
+| File/Folder                | Description                                           |
+|---------------------------|-------------------------------------------------------|
+| `index.html`              | Loads and renders the SurVis interface               |
+| `papers.js`               | JSON-format metadata with type, series, keywords     |
+| `references.bib`          | Raw BibTeX file for SurVis preprocessing             |
+| `src/data/generated/`     | Auto-generated files via `update_data.py`            |
+| `bib/`                    | Source `.bib` files used to create the visualization |
 
-After completing your changes, just run 'update_data.py' with Python 3. Reload SurVis in the browser to see the changed bibliography. The script will continue to check for updates on the bib file until you stop it.
+## ✍️ Author  
+Jie Wang – University of Nottingham (2025)
 
-If the edit mode is activated, BibTeX entries can be modified in the browser, but are not stored in the 'bib' directory. To make those changes persistent, use 'download BibTex' in SurVis and copy the BibTeX data to your bib file in the 'bib' directory. You can also use the features to save and load the data from local storage of the browser; be careful, however, these features are still experimental.
-
-Further properties of SurVis, such as the title of the page, can be modified in the file 'src/properties.js'. For the publication of your literature collection, you should usually deactivate the edit mode in the properties ('editable = false;').
-
-Enjoy SurVis and send feedback if you like.
-
-## Learn more
-
-We've published a paper about SurVis at VAST 2015 - please reference it if you use or want to refer to SurVis in one of your publications. 
-
-Beck, Fabian; Koch, Sebastian; Weiskopf, Daniel: Visual Analysis and Dissemination of Scientific Literature Collections with SurVis. In: IEEE Transactions on Visualization and Computer Graphics (2016).
-
-* DOI: http://dx.doi.org/10.1109/TVCG.2015.2467757
-* Preview video: https://vimeo.com/136206061 
-
-## List of Literature Collections Using SurVis
-
-* Dynamic Graph Visualization - http://dynamicgraphs.fbeck.com
-* Visualizing Group Structures in Graphs - http://groups-in-graphs.corinna-vehlow.com/
-* Performance Visualization - http://idav.ucdavis.edu/~ki/STAR/
-* Visualization for Software Reuse - http://www.cos.ufrj.br/~schots/survis_reuse/
-* Sparklines - http://sparklines-literature.fbeck.com/
-* Survey of Surveys - http://sos.swansea.ac.uk/
-* Visual Approaches for Analyzing Scientific Literature and Patents - http://ieg.ifs.tuwien.ac.at/~federico/LiPatVis/
-* Visualizing High-Dimensional Data - http://www.sci.utah.edu/~shusenl/highDimSurvey/website/
-* Visualization of Cultural Heritage Collection Data - https://danubevislab.github.io/collectionvis/
-* Survey of Visual Summaries - http://graphics.cs.wisc.edu/Vis/vis_summaries/
-* Optimization of Parallel Computing Systems - http://www.smemeti.com/slr/
-* Deep Learning Visualizations - https://snie2012.github.io/deep-learning-vis-collection/
-* Visualization in Astrophysics - https://tdavislab.github.io/astrovis-survis/
-* Categorical Visualisation Techniques - https://cat-vis.github.io/src/
-
-Please contact me (fabian.beck@uni-bamberg.de) if you know other collections using SurVis.
-
-## Contact
-
-Fabian Beck
-
-http://research.fbeck.com
+## 🧠 Acknowledgements  
+Built using the [SurVis system by Fabian Beck](https://github.com/fabian-beck/survis)  
+Modified and adapted for COMP4037 CW3 purposes.
