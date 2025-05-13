@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/5160466a-7747-4736-ab31-c36688c45c10)
+
 # Literature Overview for CW3 - COMP4037
 
 This GitHub repository hosts the interactive **SurVis** visualization for the literature review project of COMP4037 Coursework 3 at the University of Nottingham.
