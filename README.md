@@ -26,7 +26,6 @@ Fields include: JWA, OWA, SAW, Hybrid Aggregation, Interval Operators, Explainab
 | File/Folder                | Description                                           |
 |---------------------------|-------------------------------------------------------|
 | `index.html`              | Loads and renders the SurVis interface               |
-| `papers.js`               | JSON-format metadata with type, series, keywords     |
 | `references.bib`          | Raw BibTeX file for SurVis preprocessing             |
 | `src/data/generated/`     | Auto-generated files via `update_data.py`            |
 | `bib/`                    | Source `.bib` files used to create the visualization |
