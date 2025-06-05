@@ -19,7 +19,6 @@ Fields include: JWA, OWA, SAW, Hybrid Aggregation, Interval Operators, Explainab
 
 👉 [Click here to open the interactive SurVis visualization](https://elsaw000.github.io/survis-cw3-JieWang/)
 
-> Make sure all JS/CSS files and data are correctly deployed in the same folder as `index.html`.
 
 ## 📁 File Structure
 
